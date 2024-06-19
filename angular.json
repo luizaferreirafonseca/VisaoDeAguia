@@ -84,12 +84,19 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/font-awesome/css/font-awesome.css",
               "src/styles.css"
+              
             ],
-            "scripts": []
+            "scripts": [
+            
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "34e4709c-48cb-40a3-b80e-bb3d6222b016"
   }
 }

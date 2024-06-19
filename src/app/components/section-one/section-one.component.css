@@ -1,0 +1,267 @@
+.total-box{
+    background-image: url('/assets/orange.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 39vW;
+   
+    
+    
+   
+    
+}
+
+.content{
+    background-color: #6537127d;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   gap: 80px;
+   padding-top: 55px;
+   
+   
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+   gap: 80px;
+ 
+   width: 100%;
+   
+   
+} */
+
+.content-texts{
+display: flex;
+flex-direction: column;
+
+align-items: center;
+gap: 30px;
+width: 40%;
+color: white;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h1{
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 4px black; /* Adiciona uma sombra ao texto */
+}
+
+.text-one{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.text-one .plans{
+    font-weight: bold;
+}
+
+.text-one p{
+  
+}
+
+
+.highlighted-box{
+    background-color: #FF4500ab;
+    padding: 18px 100px;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+
+.highlighted-box .price{
+    font-size: 4.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black; /* Adiciona uma sombra ao texto */
+}
+
+.text-three{
+text-align: center;}
+
+
+.text-two{
+    text-align: center;
+}
+
+
+
+
+
+.inputs-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.total-form{
+   
+    height: 85%;
+    display: flex;
+   
+    background-color:  #FFFFFFD1;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding-top: 20px; /* Adiciona padding superior */
+    padding-bottom: 20px; /* Adiciona padding inferior */
+    
+}
+
+
+
+.form-box{
+  padding: 0 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.form-box .title-form{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.inputs-box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+input {
+    padding: 7px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #333;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 16px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    
+   
+}
+
+
+.grabber{
+    font-size: 0.8rem;
+    padding-top: 10px;
+    padding-bottom: 18px;
+}
+
+.checkbox-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.checkbox-form  p{
+    font-size: 1.3rem;
+}
+.container-checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.form-check input[type="checkbox"] {
+    display: none; /* Esconde o checkbox original */
+}
+
+.form-check input[type="checkbox"] + label:before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid gray;
+    border-radius: 50%; /* Torna a borda redonda */
+    margin-right: 10px; /* Espaçamento entre o círculo e o label */
+    vertical-align: middle;
+}
+
+.form-check input[type="checkbox"]:checked + label:before {
+    background-color: gray; /* Cor do círculo quando o checkbox está marcado */
+    border-color: gray; /* Borda do círculo quando o checkbox está marcado */
+}
+
+
+.button-87 {
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-87:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button-87:active {
+    transform: scale(0.95);
+  }
+
+  
+
+
+.content2{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 25px 0;
+    gap: 50px;
+    align-items: center;
+    
+
+}
+
+.content2 p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.content2 .box{
+    background-color: #893602;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.content2 .box p {
+    
+}
+
+
+

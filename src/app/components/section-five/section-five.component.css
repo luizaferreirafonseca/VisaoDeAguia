@@ -1,0 +1,33 @@
+section{
+    background-color: #F0A500;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 50px;
+    
+}
+
+.content-texts{
+    width: 53%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+   gap: 25px;
+    align-items: center;
+}
+
+.content-texts .title{
+    font-size: 1.7rem;
+}
+
+.content-texts .subtitle{
+    font-size: 1.2rem;
+}
+
+.content-texts .text{
+    line-height: 22px;
+}

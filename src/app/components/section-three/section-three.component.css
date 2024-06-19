@@ -1,0 +1,52 @@
+section{
+    background-color: black;
+    width: 100%;
+    
+    
+}
+
+.total-container{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 40px 10px;
+}
+
+.content-texts{
+    width: 48%;
+    text-align: justify;
+}
+
+.image img{
+    width: 85%;
+}
+
+.content-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title p{
+    font-size: 1.7rem;
+    color:#E45826;
+}
+
+.subtitle p{
+    font-size: 1.1rem;
+}
+
+.text p{
+    line-height: 23px;
+}
+
+ul{
+    padding:18px 25px;
+    line-height: 20px;
+}
+
+ul li{
+    padding-top: 8px;
+}
