@@ -46,7 +46,7 @@ u {
 
 .box{
     width: 28%;
-    
+    height: 210px;
     background-color: #D9D9D9;
     border: none;
     line-height: 22px;
@@ -54,7 +54,15 @@ u {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.content2{
+   
 }
 
 .icon{
@@ -96,5 +104,26 @@ u {
 
     .box{
         width: 100%;
+        min-height: 200px;
+    }
+
+
+}
+
+@media(max-width: 681px){
+    .box{
+        height: 250px;
+    }
+}
+
+@media(max-width: 434px){
+    .box{
+    height:290px;
+    }
+}
+
+@media(max-width: 326px){
+    .box{
+        height: 310px;
     }
 }
