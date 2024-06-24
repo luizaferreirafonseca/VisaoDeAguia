@@ -1,33 +1,189 @@
 section{
-    background-color: #F0A500;
+    background: #E7E7E7;
+    padding: 50px;
+}
+
+.photo{
+    width: 500px;
 }
 
 .container{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
     align-items: center;
-    gap: 80px;
-    padding: 50px;
+    justify-content: center;
+}
+
+.container .title {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+
+}
+
+span{
+    color: #DE6913;
+}
+
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+
+}
+
+.box-container:hover{
+    transform: scale(1.1); /* Aumenta o botão em 10% */
+}
+
+
+
+.orangebox{
+    background-color: #DE6913;
+    text-transform: uppercase;
+    width: 160%;
+    text-align: center;
+    font-size: 1.0rem;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blackbox{
+background-color: black;
+width: 160%;
+color: white;
+text-align: center;
+padding: 20px 0;
+font-size: 1.8rem;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blackbox-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  
+}
+
+.blackbox-container p{
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.blackbox-container p:hover{
+    transform: scale(1.2); /* Aumenta o botão em 10% */
+}
+
+.whitebox{
+    background-color: white;
+    width: 160%;
+    padding: 20px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
     
 }
 
-.content-texts{
-    width: 53%;
-    text-align: justify;
+
+
+ul {
+    list-style-type: none;
     display: flex;
     flex-direction: column;
-   gap: 25px;
+    gap: 12px;
     align-items: center;
 }
 
-.content-texts .title{
-    font-size: 1.7rem;
+.line{
+    width: 100%;
+    color: #DE6913;
+  
+    border-top: 0.5px solid orange; /* A linha fica mais fina com 0.5px */
+
+    margin: 5px auto; /* Centraliza a linha e dá uma margem */
+    
 }
 
-.content-texts .subtitle{
+/* button{
+   font-size: 1.2rem;
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-transform: uppercase;
+   background-color: #9A4C14;
+   border: none;
+   color: white;
+   border-radius: 10px;
+   cursor: pointer;
+   
+} */
+
+button {
     font-size: 1.2rem;
-}
-
-.content-texts .text{
-    line-height: 22px;
-}
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    background-color: #9A4C14;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: background-color 0.3s ease, color 0.3s ease;
+ }
+ 
+ button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+ }
+ 
+ button:hover::before {
+    opacity: 1;
+ }
+ 
+ button:focus {
+    outline: none;
+ }
+ 
+ .animated-button {
+    animation: shimmer 4s infinite;
+    background-size: 200% 200%;
+ }
+ 
+ @keyframes shimmer {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+ }
+ 
+ .animated-button {
+    background-image: linear-gradient(45deg, #f09c47, #9A4C14, #f09c47, #9A4C14);
+ }

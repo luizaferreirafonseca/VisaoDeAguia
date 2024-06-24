@@ -1,144 +1,124 @@
-.total-box{
-    background-image: url('/assets/orange.jpg');
+
+
+.container
+{background-image: url('/assets/foto2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 39vW;
-   
-    
-    
-   
+    min-height: 100vh;
     
 }
 
 .content{
     background-color: #6537127d;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
-   gap: 80px;
-   padding-top: 55px;
-   
-   
-}
-/* .container{
-    display: flex;
-    justify-content: center;
-   gap: 80px;
- 
-   width: 100%;
-   
-   
-} */
-
-.content-texts{
-display: flex;
-flex-direction: column;
-
-align-items: center;
-gap: 30px;
-width: 40%;
-color: white;
-}
-
-.title{
-    text-align: center;
-}
-
-.title h1{
-    font-size: 1.8rem;
-    text-shadow: 2px 2px 4px black; /* Adiciona uma sombra ao texto */
-}
-
-.text-one{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-}
-
-.text-one .plans{
-    font-weight: bold;
-}
-
-.text-one p{
+    gap: 80px;
+    align-items: center;
   
+    
+
+
+    
 }
 
-
-.highlighted-box{
-    background-color: #FF4500ab;
-    padding: 18px 100px;
-    border-radius: 10px 10px 10px 10px;
+.content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     color: white;
-}
-
-.highlighted-box .price{
-    font-size: 4.2em;
-    font-weight: bold;
-    text-shadow: 1px 1px 3px black; /* Adiciona uma sombra ao texto */
-}
-
-.text-three{
-text-align: center;}
-
-
-.text-two{
+    width: 40%;
     text-align: center;
 }
 
 
-
-
-
-.inputs-box{
-    display: flex;
-    flex-direction: column;
-}
-
-.total-form{
-   
-    height: 85%;
-    display: flex;
-   
-    background-color:  #FFFFFFD1;
-    border-radius: 10px 10px 10px 10px;
-    text-align: center;
-    padding-top: 20px; /* Adiciona padding superior */
-    padding-bottom: 20px; /* Adiciona padding inferior */
-    
-}
-
-
-
-.form-box{
-  padding: 0 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    
-}
-
-.form-box .title-form{
-    font-size: 23px;
+.first-text p{
+    font-size:1.7rem;
+    text-shadow: 1px 1px 1px black;
     font-weight: bold;
 }
 
-.inputs-box{
+.second-text{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    gap: 13px;
 }
 
-form{
+.second-text .text{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.orangebox{
+    border-radius:  10px 10px 10px 10px;
+    padding: 18px 100px;
+    width: 80%;
+    background-color: #9e3b17C2;
+
+}
+
+.orangebox .title{
+font-size: 4.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;}
+
+.orangebox .subtitle{
+    font-size: 0.9rem;
+} 
+
+.third-text p{
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    
+
+}
+
+.content-form{
+   
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.texts{
+    text-align: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
+.content-form{
+    background-color:  #FFFFFFC9;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
 
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-form .first-title{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.telephone{
+    display: flex;
+    gap: 20px;
+}
+
+.telephone input{
+    padding-left: 110px;
+}
 
 input {
     padding: 7px;
@@ -151,117 +131,183 @@ input {
     font-size: 16px;
     font-family: inherit;
     border: 1px solid #ccc;
-    
    
 }
 
-
-.grabber{
-    font-size: 0.8rem;
-    padding-top: 10px;
-    padding-bottom: 18px;
+input:focus {
+    border-color: #f09c47; /* Cor da borda quando o input está em foco */
+    outline: none; /* Remove o contorno padrão do navegador */
 }
+
+select{
+    padding: 7px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #333;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 16px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+   
+}
+
+select:focus{
+    border-color: #f09c47; /* Cor da borda quando o input está em foco */
+    outline: none; /* Remove o contorno padrão do navegador */
+}
+
 
 .checkbox-form{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
-
-
-.checkbox-form  p{
-    font-size: 1.3rem;
-}
-.container-checkbox{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 15px;
 }
+
+.checkbox-form p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 18px;
+    align-items: center; 
+}
+
+
+.form-check{
+    align-items: center;
+}
+.form-check label{
+    padding-left: 5px;
+    
+}
+
 
 
 .form-check input[type="checkbox"] {
-    display: none; /* Esconde o checkbox original */
-}
-
-.form-check input[type="checkbox"] + label:before {
-    content: '';
-    display: inline-block;
-    width: 10px;
+    -webkit-appearance: none; /* Remove o estilo padrão do navegador */
+    -moz-appearance: none;
+    appearance: none;
+    width: 10px; /* Tamanho desejado do checkbox */
     height: 10px;
-    border: 2px solid gray;
-    border-radius: 50%; /* Torna a borda redonda */
-    margin-right: 10px; /* Espaçamento entre o círculo e o label */
-    vertical-align: middle;
+    border: 1px solid #ccc; /* Borda do checkbox */
+    border-radius: 50%; /* Faz o checkbox redondo */
+    outline: none; /* Remove o contorno padrão do navegador */
+    cursor: pointer; /* Mostra o cursor ao passar sobre o checkbox */
+    transition: background-color 0.3s, border-color 0.3s; /* Transição suave */
+    
 }
 
-.form-check input[type="checkbox"]:checked + label:before {
-    background-color: gray; /* Cor do círculo quando o checkbox está marcado */
-    border-color: gray; /* Borda do círculo quando o checkbox está marcado */
+.form-check input[type="checkbox"]:checked {
+    background-color:#f09c47; /* Cor de fundo quando o checkbox está marcado */
+    border-color: #f09c47; /* Cor da borda quando o checkbox está marcado */
 }
 
+.form-check label {
+    padding-left: 5px;
 
-.button-87 {
-    margin: 10px;
-    padding: 15px 30px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
+    cursor: pointer; /* Mostra o cursor ao passar sobre o label */
+}
+
+button{
+    background-color: #f0b94a;
+    border: none;
     color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
     border-radius: 10px;
-    display: block;
-    border: 0px;
-    font-weight: 700;
-    box-shadow: 0px 0px 14px -7px #f09819;
-    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
-    cursor: pointer;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  
-  .button-87:hover {
-    background-position: right center;
-    /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .button-87:active {
-    transform: scale(0.95);
-  }
-
-  
+}
 
 
-.content2{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    width: 100%;
-    color: white;
-    padding: 25px 0;
-    gap: 50px;
-    align-items: center;
+
+
+@media (max-width: 1452px){
+
+    .orangebox{
+        padding: 18px 0px;
+        
+    }
+
+    .orangebox .title{
+        font-size: 3rem;
+    }
+
+    .content{
+        gap: 30px;
+    }
+
+    .content-form{
+        padding: 40px 20px;
+    }
+
+
+}
+
+@media (max-width: 839px){
+    .content{
+        flex-direction: column;
+    }
+
+    .content-text{
+        width: 100%;
+    }
+}
+
+@media(max-width:514px){
+    .second-text .text {
+        width: 70%;
+        
+    }
+
+
+}
+
+@media(max-width:497px){
+    .content-form{
+        padding: 30px 20px;
+        width: 90%;
+    }
+
+    .third-text p{
+        font-size: 1rem;
+    }
+
+    .telephone input {
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 431px){
+    .third-text p{
+        font-size: 1rem;
+    }
+
+    .first-text p{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:417px){
+    .third-text p{
+        font-size: 0.9rem;
+      
+    }
+
+    .first-text p{
+        font-size: 1.2rem;
+    }
+
     
-
 }
 
-.content2 p{
-    font-size: 1.2rem;
-    text-align: center;
+@media(max-width: 392px){
+    .telephone input{
+        width: 70%;
+    }
 }
-
-.content2 .box{
-    background-color: #893602;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.content2 .box p {
-    
-}
-
-
 

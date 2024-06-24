@@ -1,18 +1,72 @@
-.image-logo{
-    width: 80px;
-    
-}
-
-header{
+section{
     background-color: black;
-    width: 100%;
-    display: flex;
-
-    justify-content: center;
+    
     
 }
 
-.logo{
-  padding: 10px 0;
+.container{
+    display: flex;
+    justify-content: center;
+   align-items:center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   
   
+}
+
+.title{
+    padding-top: 50px;
+    width: 45%;
+}
+
+.title p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 80px;
+    line-height: 2.5rem;
+
+    
+}
+
+.orange{
+    color: #f46c3b;
+    font-weight: bold;
+}
+
+.imagesize{
+    width: 300px;
+}
+
+.map{
+    width: 110px;
+    padding-top: 130px;
+   margin-left: 80px;
+
+}
+
+
+@media (max-width: 944px){
+    .container{
+        flex-direction: column;
+        
+        
+        
+    }
+
+    .title{
+        padding-top: 0;
+        width: 80%;
+    }
+
+    .map{
+        position: relative;
+        top: -150px; /* Ajuste este valor conforme necessário */
+        /*margin-left:60%; /* Centraliza o ícone se necessário */
+    }
+
+    .image{
+        padding-top: 20px;
+    }
 }

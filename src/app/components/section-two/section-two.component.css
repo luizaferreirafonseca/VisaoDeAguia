@@ -1,0 +1,59 @@
+section{
+    padding: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.subtitles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+   
+}
+
+.subtitles .porcentagem, .cuidado, .garantias{
+    width: 28%;
+}
+
+.container .title{
+    font-size: 1.8rem;
+}
+
+.titletwo{
+    font-size: 2rem;
+    color: #F0A500;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.orange{
+    color: #F0A500;
+    font-weight: bold;
+}
+
+
+@media(max-width:673px){
+    .subtitles{
+        flex-direction: column;
+    }
+    .subtitles .porcentagem, .cuidado, .garantias{
+        width: 100%;
+    }
+
+    .container .title{
+        font-size: 1.6rem;
+    }
+
+    .titletwo{
+        font-size: 1.8rem;
+    }
+
+}

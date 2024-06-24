@@ -7,14 +7,14 @@ import { SectionThreeComponent } from '../../components/section-three/section-th
 import { SectionFourComponent } from '../../components/section-four/section-four.component';
 import { SectionFiveComponent } from '../../components/section-five/section-five.component';
 import { SectionSixComponent } from '../../components/section-six/section-six.component';
-import { SectionSevenComponent } from '../../components/section-seven/section-seven.component';
+
 import { FooterComponent } from '../../components/footer/footer.component';
 
 
 @Component({
   selector: 'app-page',
   standalone: true,
-  imports: [FontAwesomeModule, HeaderComponent, SectionOneComponent, SectionTwoComponent, SectionThreeComponent, SectionFourComponent, SectionFiveComponent, SectionSixComponent, FooterComponent, SectionSevenComponent],
+  imports: [FontAwesomeModule, HeaderComponent, SectionOneComponent, SectionTwoComponent, SectionThreeComponent, SectionFourComponent, SectionFiveComponent, SectionSixComponent, FooterComponent],
   templateUrl: './page.component.html',
   styleUrl: './page.component.css'
 })
