@@ -221,7 +221,13 @@ img {
 z-index:1000;
 }
 
+.whatsapp{
+    transition: transform 0.3s ease;
+}
 
+.whatsapp:hover{
+    transform: scale(1.1); 
+}
 
 
 @media (max-width: 1452px){

@@ -52,7 +52,61 @@ span{
     color: white;
     padding: 10px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+
+.orangebox::before {
+    content: '';
+    
+    
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.orangebox:hover::before {
+    opacity: 1;
+}
+
+.animated-box {
+    animation: shimmer 4s infinite;
+    background-size: 200% 200%;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animated-box {
+    background-image: linear-gradient(45deg, #aa5d11, #DE6913, #f09c47, #DE6913);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .blackbox{
 background-color: black;
@@ -79,6 +133,36 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 .blackbox-container p:hover{
     transform: scale(1.2); /* Aumenta o botão em 10% */
 }
+
+
+
+.animated-box2 p {
+    animation: shimmer 3s infinite;
+    background-size: 200% 200%;
+    background-image: linear-gradient(45deg, #ffffff, #ebe7e2, #e1701f, #b0aba7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+
+
+
+
 
 .whitebox{
     background-color: white;

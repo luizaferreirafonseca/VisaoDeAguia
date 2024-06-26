@@ -54,7 +54,7 @@ height: 400px;
    padding: 20px 20px;
    text-align: center;
    gap:10px;
-
+   box-shadow: rgba(240, 111, 6, 0.4) -5px 5px, rgba(230, 151, 33, 0.3) -10px 10px, rgba(140, 133, 125, 0.2) -15px 15px, rgba(234, 168, 68, 0.1) -20px 20px, rgba(240, 133, 46, 0.05) -25px 25px;
 }
 
 .card-middle .title{
@@ -71,6 +71,7 @@ height: 400px;
    padding: 20px 20px;
    text-align: center;
    gap: 20px;
+   box-shadow: rgba(240, 111, 6, 0.4) -5px 5px, rgba(230, 151, 33, 0.3) -10px 10px, rgba(140, 133, 125, 0.2) -15px 15px, rgba(234, 168, 68, 0.1) -20px 20px, rgba(240, 133, 46, 0.05) -25px 25px;
  
 }
 
@@ -102,6 +103,8 @@ height: 400px;
    padding: 20px 20px;
    text-align: center;
    gap: 20px;
+   box-shadow: rgba(240, 111, 6, 0.4) -5px 5px, rgba(230, 151, 33, 0.3) -10px 10px, rgba(140, 133, 125, 0.2) -15px 15px, rgba(234, 168, 68, 0.1) -20px 20px, rgba(240, 133, 46, 0.05) -25px 25px;
+   
 }
 
 .card-right .title, .text{
