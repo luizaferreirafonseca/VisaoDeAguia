@@ -1,9 +1,18 @@
 <section>
+
+    
+    <a href=
+    "https://www.google.com"  target="_blank"><img src="assets/whatsapp3.png"></a>
+
+    
+
+
+
     <div class="container">
         <div class="content">
             <div class="content-text">
-                <div class="first-text">
-                    <p>A visão de Águia te mostra o rastreamento de segurança como você precisa e que cabe no seu bolso!</p>
+                <div class="first-text" >
+                    <p>A Visão de Águia te mostra o rastreamento de segurança como você precisa e que cabe no seu bolso!</p>
                 </div>
 
                 <div class="second-text">
@@ -19,16 +28,16 @@
                 </div>
             </div>
 
-            <div class="content-form">
+            <div class="content-form" id="contact-form" >
                 <div class="texts">
                     <p class="first-title">Solicite sua cotação</p>
                     <p class="second-title">Preencha o formulário e aguarde nosso contato</p>
                 </div>
-                <form>
-                    <input type="text" id="nome" name="nome" placeholder="Nome">
+                <form [formGroup]="form" >
+                    <input type="text" id="nome" name="nome" placeholder="Nome" formControlName="nome">
 
                         
-                    <input type="email" id="email" name="email" placeholder="Email">
+                    <input type="email" id="email" name="email" placeholder="Email" formControlName="email">
 
                     <div class="telephone">
                         <select class="form-select" size="1" formControlName="ddd" id="DDD"
@@ -37,7 +46,7 @@
                             <option value="" selected>Selecione</option>
                             <option *ngFor="let ddd of dds" [value]="ddd">{{ddd}}</option>
                         </select>
-                        <input type="tel" id="celular" name="celular" placeholder="Celular">
+                        <input type="tel" id="celular" name="celular" placeholder="Celular" formControlName="celular">
                     </div>
 
                  
@@ -47,16 +56,16 @@
 
                         <div class="boxes">
                             <div class="form-check">
-                                <input type="checkbox" id="carro" formControlName="carro">
+                                <input type="radio" name="tipoVeiculo" value="carro" formControlName="tipoVeiculo">
                                 <label for="carro">Carro</label>
                             </div>
                         
                             <div class="form-check">
-                                <input type="checkbox" id="moto" formControlName="moto">
+                                <input type="radio" name="tipoVeiculo" value="moto" formControlName="tipoVeiculo">
                                 <label for="moto">Moto</label>
                             </div>
                             <div class="form-check">
-                                <input type="checkbox" id="caminhao" formControlName="caminhao">
+                                <input type="radio" name="tipoVeiculo" value="caminhão/outro" formControlName="tipoVeiculo">
                                 <label for="caminhao">Caminhão/outro</label>
                             </div>
                         </div>
@@ -65,7 +74,7 @@
                         
                     </div>
 
-                    <button class="button-87">Enviar</button>
+                    <button class="button-87" type="submit" (click)="onSubmit()" >Enviar</button>
                 </form>
 
                 

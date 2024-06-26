@@ -4,7 +4,7 @@ section{
 }
 
 .photo{
-    width: 5dvh;
+    width: 500px;
 }
 
 .container{
@@ -16,7 +16,7 @@ section{
 }
 
 .container .title {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     text-transform: uppercase;
 
 }
@@ -29,7 +29,7 @@ span{
 .box-container{
     display: flex;
     flex-direction: column;
-
+    width: 50%;
     align-items: center;
     
     transition: transform 0.3s ease, background-color 0.3s ease;
@@ -46,7 +46,7 @@ span{
 .orangebox{
     background-color: #DE6913;
     text-transform: uppercase;
-    width: 160%;
+    width: 100%;
     text-align: center;
     font-size: 1.0rem;
     color: white;
@@ -56,7 +56,7 @@ span{
 
 .blackbox{
 background-color: black;
-width: 160%;
+width: 100%;
 color: white;
 text-align: center;
 padding: 20px 0;
@@ -82,7 +82,7 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 .whitebox{
     background-color: white;
-    width: 160%;
+    width: 100%;
     padding: 20px 0;
     padding-left: 20px;
     padding-right: 20px;
@@ -186,4 +186,88 @@ button {
  
  .animated-button {
     background-image: linear-gradient(45deg, #f09c47, #9A4C14, #f09c47, #9A4C14);
+ }
+
+
+ @media(max-width: 882px){
+    .box-container{
+        width: 100%;
+    }
+ }
+
+ @media(max-width: 527px){
+    .photo{
+        width: 350px;
+    }
+ }
+
+ @media(max-width: 464px){
+    .blackbox{
+        font-size: 1.5rem;
+    }
+ }
+
+ @media(max-width: 405px){
+
+    .orangebox{
+        font-size: 0.8rem;
+    }
+
+
+    .blackbox{
+        font-size: 1.3rem;
+    }
+
+    ul {
+        font-size: 0.9rem;
+    }
+
+    button{
+        font-size: 1rem;
+    }
+ }
+
+ @media(max-width: 367px){
+    .box-container{
+        width: 100%;
+        
+    }
+
+    .photo{
+        width: 300px;
+    }
+
+    .orangebox{
+        font-size: 0.7rem;
+    }
+
+
+    .blackbox{
+        font-size: 1.2rem;
+    }
+
+    ul {
+        font-size: 0.9rem;
+    }
+
+    button{
+        font-size: 1rem;
+    }
+ }
+
+
+ @media(max-width: 343px){
+    .orangebox{
+
+    }
+
+    .blackbox{
+        font-size: 1.1rem;
+    }
+ }
+
+ @media(max-width: 325px){
+    .blackbox{
+        font-size: 1rem;
+    }
  }

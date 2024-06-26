@@ -19,7 +19,7 @@
     justify-content: center;
     gap: 80px;
     align-items: center;
-    
+  
    
   
     
@@ -39,7 +39,7 @@
 
 
 .first-text p{
-    font-size:1.7rem;
+    font-size:1.8rem;
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
 }
@@ -121,7 +121,7 @@ form{
 }
 
 .telephone input{
-    padding-left: 110px;
+    
 }
 
 input {
@@ -193,30 +193,7 @@ select:focus{
 
 
 
-.form-check input[type="checkbox"] {
-    -webkit-appearance: none; /* Remove o estilo padrão do navegador */
-    -moz-appearance: none;
-    appearance: none;
-    width: 10px; /* Tamanho desejado do checkbox */
-    height: 10px;
-    border: 1px solid #ccc; /* Borda do checkbox */
-    border-radius: 50%; /* Faz o checkbox redondo */
-    outline: none; /* Remove o contorno padrão do navegador */
-    cursor: pointer; /* Mostra o cursor ao passar sobre o checkbox */
-    transition: background-color 0.3s, border-color 0.3s; /* Transição suave */
-    
-}
 
-.form-check input[type="checkbox"]:checked {
-    background-color:#f09c47; /* Cor de fundo quando o checkbox está marcado */
-    border-color: #f09c47; /* Cor da borda quando o checkbox está marcado */
-}
-
-.form-check label {
-    padding-left: 5px;
-
-    cursor: pointer; /* Mostra o cursor ao passar sobre o label */
-}
 
 button{
     background-color: #f0b94a;
@@ -226,6 +203,22 @@ button{
     font-weight: bold;
     font-size: 0.9rem;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+img {
+    position:fixed;
+    width:250px;
+    height:80px;
+    bottom:20px;
+    right:10px;
+    
+    color:#FFF;
+    
+    text-align:center;
+    font-size:30px;
+    
+z-index:1000;
 }
 
 
@@ -256,19 +249,24 @@ button{
 @media (max-width: 839px){
     .content{
         flex-direction: column;
+        height:auto;
+        padding: 25px;
     }
 
     .content-text{
         width: 100%;
     }
+
+
 }
 
 @media(max-width:514px){
     .second-text .text {
-        width: 70%;
+        width: 100%;
         
     }
 
+  
 
 }
 
@@ -289,29 +287,53 @@ button{
 
 @media(max-width: 431px){
     .third-text p{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .first-text p{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
+
+
 }
 @media(max-width:417px){
     .third-text p{
-        font-size: 0.9rem;
+        font-size: 1rem;
       
     }
 
     .first-text p{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     
 }
 
+@media(max-width:444px){
+   
+    .telephone input{
+        width: 70%;
+    }
+
+    
+    
+}
+
+
 @media(max-width: 392px){
     .telephone input{
         width: 70%;
     }
+
+    .third-text p{
+        font-size: 1.1rem;
+    }
+
+    
 }
 
+@media(max-width: 366px){
+    .boxes{
+        flex-direction: column;
+    }
+}

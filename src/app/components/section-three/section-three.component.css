@@ -17,7 +17,7 @@ section{
 }
 
 .titleone{
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: bold;
 
 }
@@ -94,6 +94,30 @@ u {
 }
 
 
+@media(max-width: 1384px){
+    .box{
+        height: 260px;
+    }
+}
+
+@media(max-width: 1088px){
+    .box{
+        height: 300px
+    }
+}
+
+@media(max-width: 914px){
+    .box{
+        height: 320px
+    }
+}
+
+
+@media(max-width: 858px){
+    .box{
+        height: 350px
+    }
+}
 
 
 
@@ -104,7 +128,7 @@ u {
 
     .box{
         width: 100%;
-        min-height: 200px;
+        height: 250px;
     }
 
 
@@ -127,3 +151,10 @@ u {
         height: 310px;
     }
 }
+
+@media(max-width: 321px){
+    .box{
+        height: 350px
+    }
+}
+

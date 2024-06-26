@@ -14,7 +14,7 @@ import { FooterComponent } from '../../components/footer/footer.component';
 @Component({
   selector: 'app-page',
   standalone: true,
-  imports: [FontAwesomeModule, HeaderComponent, SectionOneComponent, SectionTwoComponent, SectionThreeComponent, SectionFourComponent, SectionFiveComponent, SectionSixComponent, FooterComponent],
+  imports: [ FontAwesomeModule, HeaderComponent, SectionOneComponent, SectionTwoComponent, SectionThreeComponent, SectionFourComponent, SectionFiveComponent, SectionSixComponent, FooterComponent],
   templateUrl: './page.component.html',
   styleUrl: './page.component.css'
 })

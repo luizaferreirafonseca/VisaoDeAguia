@@ -52,6 +52,11 @@ section{
 #firstbox{
     display: flex;
     gap: 10px;
+    
+}
+
+#firstbox p{
+    color: white !important;
 }
 
 span{
@@ -75,8 +80,9 @@ span{
 .container-two .subtitle{
     font-size: 1.1rem;
     background-color: #DE69137A;
-    width: 65%;
+    width: 64%;
     padding: 8px 5px;
+    border-radius: 8px;
 }
 
 
@@ -90,4 +96,82 @@ ul{
 
 .icon2{
     color: #E45826;
+}
+
+
+@media(max-width:1378px){
+    .container-two .subtitle{
+        width: 68%;
+    }
+}
+
+@media(max-width: 1166px){
+    .container-two .subtitle{
+        text-align: center
+    };
+}
+
+@media(max-width: 511px){
+    .container-two .subtitle{
+        width: 100%;
+    }
+
+    .container-two .title{
+        text-align: center;
+    }
+}
+
+@media(max-width: 378px){
+    .container-two .title{
+        font-size: 1.4rem;
+        text-align:start;
+        
+    }
+
+    .container-two .subtitle{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 342px){
+    .container-two .title{
+        font-size: 1.3rem;
+    }
+
+    .container-two .subtitle{
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width:802px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    .container-one .textone{
+        width: 100%;
+    }
+
+    .container-one{
+        display: flex;
+        /* flex-direction: row; */
+        gap: 20px;
+        width: 100%;
+    }
+
+    .container-one .box{
+        padding: 10px 30px;
+        
+    }
+
+    .photo{
+        width: 260px;
+        height: 240px;
+    }
+
+   
+
 }

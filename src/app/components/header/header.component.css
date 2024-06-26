@@ -1,5 +1,12 @@
+* {
+    font-family: 'Kanit';
+}
+
 section{
     background-color: black;
+    
+        
+
     
     
 }
@@ -22,7 +29,7 @@ section{
 .title p{
     color: white;
     text-transform: uppercase;
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 80px;
     line-height: 2.5rem;
