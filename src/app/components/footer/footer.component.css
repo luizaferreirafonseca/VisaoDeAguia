@@ -36,13 +36,20 @@
 .icons{
     display: flex;
     gap: 20px;
+    color: white;
     
     
 }
+a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Usa a cor do texto ao redor (herda a cor do elemento pai) */
+  }
 
-.bi{
-    
-}
+  path {
+    color: white;
+  }
+  
+
 
 
 @media (max-width: 796px) {

@@ -41,13 +41,13 @@ onSubmit(){
 
     const encodedMessage = encodeURIComponent(message);
 
-    // Número de telefone da sua empresa
-    const companyPhoneNumber = '21998583655'; // substitua pelo número real da sua empresa
+   
+    const companyPhoneNumber = '21984381234'; 
 
-    // Crie a URL do WhatsApp com o número da empresa e a mensagem personalizada
+    
     const whatsappUrl = `https://wa.me/${companyPhoneNumber}?text=${encodedMessage}`;
 
-    // Redirecione o usuário para a URL do WhatsApp
+   
     window.open(whatsappUrl, '_blank');
   } else {
     console.log('Formulário inválido'); 
