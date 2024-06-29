@@ -42,7 +42,7 @@ onSubmit(){
     const encodedMessage = encodeURIComponent(message);
 
    
-    const companyPhoneNumber = '21984381234'; 
+    const companyPhoneNumber = '5521984381234'; 
 
     
     const whatsappUrl = `https://wa.me/${companyPhoneNumber}?text=${encodedMessage}`;
